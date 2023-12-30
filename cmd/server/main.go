@@ -50,16 +50,6 @@ func main() {
 	database.DB = dbGORM
 
 	r := router.Setup()
-	// Setup CORS
-	// corsHandler := cors.New(cors.Options{
-	// 	AllowedOrigins:   []string{"http://localhost:3000"}, // Adjust the allowed origins to match your front-end app's URL
-	// 	AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
-	// 	AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token"},
-	// 	ExposedHeaders:   []string{"Link"},
-	// 	AllowCredentials: true,
-	// 	MaxAge:           300, // Maximum value not ignored by any of major browsers
-	// })
-	// r.Use(corsHandler.Handler)
 
 	fmt.Print("Listening on port 8000 at http://localhost:8000!")
 
