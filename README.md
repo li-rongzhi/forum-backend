@@ -1,10 +1,6 @@
-# CVWO Assignment Sample Golang App
+# Forum Backend
 
-This sample Golang app is provided to help you experiment and practice web development fundamentals.
-It shows how certain functionality can be implemented.
-However, do note that this is **far from a model example**.
-After all, we want to see how you maximise your learning in web development
-and good software development practices.
+This project is developed based on CVWO sample app. The project now supports basic backend functionalities needed for a web forum application, where the frontend part can be referred [here](https://github.com/li-rongzhi/forum-frontend).
 
 ## Getting Started
 
@@ -44,11 +40,3 @@ Main directories/files to note:
 * `README.md` is a form of documentation about the project. It is what you are reading right now.
 * `go.mod` contains important metadata, for example, the dependencies in the project. See [here](https://go.dev/ref/mod) for more information
 * `go.sum` See [here](https://go.dev/ref/mod) for more information
-
-Try changing some source code and see how the app changes.
-
-## Next Steps
-
-* This project uses [go-chi](https://github.com/go-chi/chi) as a web framework. Feel free to explore other web frameworks such as [gin-gonic](https://github.com/gin-gonic/gin). Compare their pros and cons and use whatever that best justifies the trade-offs.
-* Read up more on the [MVC framework](https://developer.mozilla.org/en-US/docs/Glossary/MVC) which this code is designed upon.
-* Sometimes, code formatting can get messy and opiniated. Do see how you can incoporate [linters](https://github.com/golangci/golangci-lint) to format your code.
